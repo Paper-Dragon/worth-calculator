@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     },
   },
   description: "这b班上得值不值 - 计算你的工作性价比 | Job Worth Calculator - Calculate your job's value",
-  verification: {
-    google: "_OQGiIpYz87USAsgJV2C07-JJhQ8myV_4GoM1kDjFic",
-  },
+  // verification: {
+  //   google: "_OQGiIpYz87USAsgJV2C07-JJhQ8myV_4GoM1kDjFic",
+  // },
 };
 
 export default function RootLayout({
@@ -40,9 +40,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="_OQGiIpYz87USAsgJV2C07-JJhQ8myV_4GoM1kDjFic" />
+        {/* <meta name="google-site-verification" content="_OQGiIpYz87USAsgJV2C07-JJhQ8myV_4GoM1kDjFic" />
         <meta name="baidu-site-verification" content="codeva-pEoMg5F0Cv" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7207313144293144" crossOrigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7207313144293144" crossOrigin="anonymous"></script> */}
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       </head>
       <body
@@ -54,7 +54,7 @@ export default function RootLayout({
         <Analytics />
         <div className="pb-8"></div>
         <footer className="w-full py-3 border-t bg-white/90 dark:bg-gray-900/80 dark:border-gray-800/50">
-          <div className="max-w-4xl mx-auto px-4">
+          {/* <div className="max-w-4xl mx-auto px-4">
             <div className="flex justify-center items-center gap-6 mb-2">
               <a 
                 href="https://offerselect.zippland.com/" 
@@ -115,7 +115,7 @@ export default function RootLayout({
             <div className="text-center">
               <span className="text-[10px] text-gray-400 dark:text-gray-500">更多实用工具 by zippland.com</span>
             </div>
-          </div>
+          </div> */}
         </footer>
       </body>
     </html>
